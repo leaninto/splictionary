@@ -1,0 +1,67 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900');
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'C:\\Users\\heymu\\Homestead_projects\\laravel7\\node_modules\\bootstrap\\scss\\bootstrap.scss';
+
+body{
+	font-family: Roboto;
+	font-size: 1rem;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Merriweather', serif;
+	font-weight: 900;
+}
+.voting{
+	span{
+		&.vote{
+			cursor: pointer;
+		}
+	}
+}
+.small-text{
+	font-size: .6rem;
+}
+.definitions__list--last-child:last-child{
+	border-bottom: 0px;
+}
+.text{
+	
+	&__logo{
+		font-size:.6rem;
+		
+		&--serif-italic{
+			font-family: 'Merriweather', serif;
+			font-weight: 300;
+			font-style: italic;
+		}
+	}
+
+}
+.last{
+	border-bottom:none !important;
+}
+.fourohfour{
+	background-image: url('https://media.giphy.com/media/m12EDnP8xGLy8/giphy.gif');
+}
+ul.share-buttons{
+  list-style: none;
+  padding: 0;
+}
+
+ul.share-buttons li{
+  display: inline;
+}
+
+ul.share-buttons .sr-only{
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
