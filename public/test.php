@@ -12,4 +12,6 @@ class classTwo extends classOne{
 $something = new classTwo();
 
 $something->callTwo();
+
+phpinfo();
 ?>
